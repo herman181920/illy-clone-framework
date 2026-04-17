@@ -1,0 +1,12 @@
+{
+  "target_parity": 1.0,
+  "max_fix_iterations": 5,
+  "auto_commit": true,
+  "auto_push_end": false,
+  "allow_plan_mode": false,
+  "no_inventions": true,
+  "partials_allowed": 0,
+  "blocked_requires_evidence": true,
+  "commit_author_email": "",
+  "visual_firewall_enforced": true
+}

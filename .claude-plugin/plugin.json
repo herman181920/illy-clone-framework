@@ -1,0 +1,10 @@
+{
+  "name": "illy-clone-framework",
+  "version": "0.2.0",
+  "description": "Universal website cloning framework. Clone any site → QA verify → convert to editable project → analyze architecture. Stage 6 convergence loop drives flow-parity to 100% without interactive questions.",
+  "author": {
+    "name": "Illy"
+  },
+  "license": "MIT",
+  "keywords": ["cloning", "website", "scraping", "qa", "react", "framework", "claude-code-plugin"]
+}

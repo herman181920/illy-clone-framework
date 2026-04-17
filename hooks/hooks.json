@@ -1,0 +1,14 @@
+{
+  "PostToolUse": [
+    {
+      "matcher": "Bash",
+      "hooks": [
+        {
+          "type": "prompt",
+          "prompt": "If the bash command just completed was running a cloning script (clone_site.py or similar), automatically suggest running /qa to verify the clone quality. Say: 'Clone completed. Running QA comparison to verify quality...' and then invoke the qa skill.",
+          "timeout": 30
+        }
+      ]
+    }
+  ]
+}

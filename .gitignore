@@ -1,0 +1,36 @@
+.DS_Store
+**/.DS_Store
+__pycache__/
+*.pyc
+node_modules/
+dist/
+build/
+.next/
+*.log
+
+# Environment / secrets — never commit
+.env
+.env.*
+!.env.example
+
+# Cookies / auth artifacts — never commit live sessions
+*cookies*.json
+*credentials*.json
+
+# Playwright MCP runtime artifacts
+.playwright-mcp/
+
+# Per-clone working data — users of the framework track these in their own private repos
+clones/
+benchmarks/
+
+# Reference / competitive-analysis artifacts (local only)
+*-ref/
+.*-ref/
+
+# Session handoff notes (personal)
+HANDOFF.md
+
+# Local-only Claude config
+.claude/*.local.md
+.claude/settings.local.json
